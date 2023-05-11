@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&family=Montserrat:wght@400;500;600;800&family=Nunito:wght@300;400;500;600;700;800;900;1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pink: #E91E63;
+    --pink-light:#F8BBD0;
+    --purple: #880E4F;
+    --blue:  #304FFE;
+    --blue-dark: #1A237E;
+    --blue-light: #C5CAE9;
+    --text-light: #FFFFFF;
+    --text-dark: rgba(0, 0, 0, 0.87);
+    --text-grey:rgba(0, 0, 0, 0.54);
+
+    --font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-dark);
+}
+
+li{
+    display: block;
+    list-style-type: none;
+}

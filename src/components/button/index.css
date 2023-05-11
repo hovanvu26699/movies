@@ -1,0 +1,55 @@
+.btn{
+    font-family: var(--font-family);
+    border: 0;
+    padding: 15px 25px;
+    font-size: 22px;
+    border-radius: 35px;
+    line-height: 22px;
+    transform: scale(1);
+    transition: all 0.2s ease-out;
+}
+
+.btn:hover{
+    cursor: pointer;
+transform: scale(1.05);
+}
+
+.btn-pink{
+    background: var(--pink);
+    color: var(--text-light);
+
+}
+
+.btn-register{
+    font-weight: 700;
+    margin: 0 14px;
+    padding: 12px 45px;
+    font-size: 20px;
+    background: var(--blue-light);
+    color: var(--blue);
+}
+
+.btn-border{
+    font-size: 20px;
+    font-weight: 600;
+    background: none;
+    border-radius: 25px;
+    color: var(--text-light);
+    border: 2px solid var(--text-light);
+}
+
+.btn-no-bg{
+    color: var(--blue);
+    border-radius: 25px;
+    border: 0;
+    font-weight: 600;
+    background: none;
+}
+
+.btn-blue{
+    width: 230px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-light);
+    background-color: var(--blue);
+}

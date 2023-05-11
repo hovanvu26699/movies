@@ -1,0 +1,16 @@
+export { default as IMG_LogoColor } from "./img_logo_color.svg";
+export { default as IC_Play } from "./ic_play.png";
+export { default as IMG_Film } from "./img_film.jpg";
+export { default as IMG_PopCorn } from "./img_popcorn.png";
+export { default as IC_Coffee } from "./ic_coffee.png";
+export { default as IMG_Cinema } from "./img_cinema.avif";
+export { default as IMG_Action } from "./img_action.png";
+export { default as IMG_Roamntic } from "./img_romantic.png";
+export { default as IMG_Iron } from "./img_iron.png";
+export { default as IMG_Commedy } from "./img_commedy.png";
+export { default as IMG_Princess } from "./img_princess.png";
+export { default as IMG_Award } from "./img_oscar.png";
+export { default as IMG_News } from "./img_news.png";
+export { default as IMG_Event } from "./img_event.jpg";
+export { default as IMG_Bg_Color } from "./img_bg_color.png";
+export { default as IMG_Bg_Color_Right } from "./img_bg_color_r.png";

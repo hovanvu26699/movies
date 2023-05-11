@@ -1,0 +1,192 @@
+.logContainer{
+    position: relative;
+    font-family: var(--font-family);
+    background-color: #880E4F;
+}
+
+.logBg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-left,.bg-right{
+    width: 600px;
+    height: 910px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.logWrapper{
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: 100px;
+    right: 100px;
+    border-radius: 35px;
+}
+
+.icHome a{
+    font-size: 30px;
+    color: #fff;
+    top: 30px;
+    left: 100px;
+    position: absolute;
+}
+
+.colLog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #00000000;
+    box-shadow: 0px 0 26px 0px #00000042;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.Logcaption{
+    width: 100%;
+    text-align: center;
+    color: var(--text-light);
+}
+
+.Logcaption .box_logo{
+    margin-bottom: 50px;
+}
+
+.Logcaption .box_logo img{
+    width: 100%;
+    height: 90px;
+}
+
+.Logcaption .box_logo h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.logTitle h2{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.logTitle p{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.formLog{
+    background: #fff;
+    padding: 40px 50px;
+}
+
+.formLog>div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formLog>div:first-child{
+    margin-top: 30px;
+}
+.formLog>div:first-child h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.formLog>div:first-child a{
+    font-size: 20px;
+    color: var(--blue);
+}
+
+.logBtn{
+    margin-top:100px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-around;
+}
+
+.logBtn .button .btn{
+    width: 180px;
+    padding: 8px 0;
+}
+
+.logBtn .button .btn i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.logBtn .button:nth-child(1) .btn{
+    background-color: #1933c5;
+}
+.logBtn .button:nth-child(2) .btn{
+    background-color: #0cbdd7;
+}
+.logBtn .button:nth-child(3) .btn{
+    background-color: #e73e00;
+}
+
+
+
+.formLog>p{
+    margin: 35px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-grey);
+}
+
+.form>div:first-child , .form>div:nth-child(2){
+    width: 100%;
+}
+
+.form>div:nth-child(2){
+    margin: 35px 0 30px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.remember label span:nth-child(2), .remember a{
+    font-size: 18px;
+    font-weight: 500;
+}
+.remember a{
+    color: var(--blue);
+}
+.form .button .btn{
+    margin-bottom: 50px;
+    margin-top: 70px;
+    width: 100%;
+}
+
+/* signup */
+.formRegister>div:nth-child(3){
+    margin-right: 30px;
+}
+.formRegister>div:nth-child(3) , .formRegister>div:nth-child(4){
+    width: calc(50% - 15px);
+}
+
+.terms{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.terms>div>label>span:nth-child(2){
+    font-size: 20px;
+}
+.terms>div>p{
+    margin-top: -10px;
+}
+.terms>div>p>a{
+    font-size: 20px;
+    color: var(--blue);
+    font-weight: 600;
+    padding-left: 30px;
+}

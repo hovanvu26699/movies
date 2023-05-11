@@ -1,0 +1,83 @@
+.cardFilmContainer{
+    margin: 0 auto;
+    border-radius: 25px;
+    width: 100%;
+    padding: 30px 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font-family);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../assets/img_film.jpg);
+}
+.lay{
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 25px;
+    background-color: #edfafff0;
+}
+.cardFilmContainer>.infoFilm{
+    z-index: 1;
+    padding: 0;
+}
+
+.cardFilmContainer>.infoFilm>p,.reviewFilm{
+    font-size: 24px;
+    font-weight: 500;
+}
+.cardFilmContainer>.infoFilm>h2{
+    margin: 25px 0 5px;
+    font-size: 50px;
+}
+
+.rateTime{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.rateTime>span:not(:first-child){
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 20px;
+}
+.rateTime>span:nth-child(2){
+    border-right: 1px solid var(--text-grey);
+}
+
+.infoFilm>.reviewFilm{
+    margin: 25px 0 55px;
+}
+
+.boxImg{
+    z-index: 1;
+    width: 400px;
+    height: 530px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.boxImg>a>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.infoFilm>.buttonFilm{
+    display: flex;
+}
+
+.infoFilm>.buttonFilm>.button>.btn{
+    font-size: 20px;
+    font-weight: 600;
+}
+.infoFilm>.buttonFilm>.button>.no-bg{
+    background: none;
+    padding-left: 0;
+    font-weight: 700;
+    color: var(--blue);
+}

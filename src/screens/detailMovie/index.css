@@ -1,0 +1,69 @@
+.detailContainer{
+    font-family: var(--font-family);
+    position: relative;
+    margin-top: -92px;
+}
+
+
+.film .cardFilmContainer{
+    padding: 200px 250px;
+    padding-bottom: 400px;
+    border-radius: 0px;
+}
+
+.film .cardFilmContainer .lay{
+    border-radius: 0px;
+}
+
+.filmDecs{
+    position: relative;
+    top: -270px;
+    padding: 0 190px;
+}
+
+.filmDecsWrapper{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 120px;
+    border: 1px solid var(--text-light);
+    background: var(--text-light);
+    border-radius: 35px;
+}
+
+.storyLine>h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.storyLine>p{
+    font-size: 22px;
+    width: 500px;
+    line-height: 35px;
+    margin: 30px 0 50px;
+}
+
+.storyLine>.filmBtn{
+    display: flex;
+}
+
+.storyLine .filmBtn .button:first-child .btn{
+    padding-left: 0;
+}
+
+.join{
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.join h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.join p{
+    font-size: 17px;
+    margin-top: 10px;
+}

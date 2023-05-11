@@ -1,0 +1,67 @@
+.cardNewFilm{
+    position: relative;
+    border-radius: 25px;
+    border: 1px solid #00000029;
+    font-family: var(--font-family);
+}
+
+.cardNewFilm>.boxImg{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.cardNewFilm>.boxImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.cardNewFilm>.new{
+    padding: 8px 15px;
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    border-radius: 25px;
+    color: var(--text-light);
+    background-color: var(--text-dark);
+}
+
+.play{
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, #304ffe98, #e91e6294);
+
+
+}
+
+.cardNewFilm>.boxImg:hover .play{
+    cursor: pointer;
+    display: flex;
+}
+
+.play>.icPlay{
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 50%;
+    border: 5px solid  var(--text-light);
+}
+.icPlay>img{
+    width: 25px;
+}
+
+.cardNewFilm>h3{
+    padding: 12px;
+    font-size: 22px;
+    text-align: center;
+    color: var(--text-dark);
+}

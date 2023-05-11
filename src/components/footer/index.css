@@ -1,0 +1,84 @@
+.footer{
+    background-color: whitesmoke;
+    font-family: var(--font-family);
+}
+.footerWrapper{
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogo{
+    width: 100px;
+}
+.footerLogo img{
+    margin-top: -12px;
+    width: 100%;
+}
+
+.socialNetwork{
+    display: flex;
+    justify-content: space-between;
+}
+.socialNetwork >span{
+    display: block;
+    width: 45px;
+    height: 45px;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--blue);
+    background: #b1b1b15e;
+    font-size: 25px;
+}
+.socialNetwork >span:hover{
+    background: var(--blue-dark);
+    color: var(--text-light);
+    cursor: pointer;
+}
+
+.language{
+    margin-top: 30px;
+    padding: 2px 20px;
+    border-radius: 15px;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+}
+.language i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.language select{
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+    color: var(--blue);
+}
+
+.language select:hover{
+    cursor: pointer;
+}
+
+.eng,.vie{
+    font-size: 20px;
+}
+
+/* a column */
+.column h3{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.column>ul>li{
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.column>ul>li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

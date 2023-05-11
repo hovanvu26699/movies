@@ -1,0 +1,69 @@
+.headerContainer {
+  position: relative;
+  z-index: 1;
+  background: none;
+  padding: 0 100px;
+  line-height: 22px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  font-family: var(--font-family);
+  justify-content: space-between;
+}
+
+.navList, .headerButton{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navList li{
+  font-size: 22px;
+  padding: 12px 25px;
+}
+.navList li:hover{
+  font-weight: 700;
+}
+
+.navList li:first-child{
+  padding: 0 40px;
+  padding-left: 0;
+
+}
+.navList li:nth-child(2){
+  padding: 0;
+}
+
+.navList li a{
+  color: var(--text-light);
+}
+
+.navDark .navList li a{
+  color: var(--text-dark);
+}
+
+
+.headerButton>div>button{
+  border: 0;
+  font-weight: 600;
+  font-size: 20px;
+  background: none;
+  padding: 7px 20px;
+  font-family: var(--font-family);
+  color:  var(--text-light);
+}
+
+.headerButton>div>button>a{
+  color: var(--text-light);
+}
+
+.setting{
+  padding-left: 20px;
+  color: var(--text-light);
+  font-size: 35px;
+}
+
+.headerButtonDark>div>button>a, .headerButtonDark>.setting{
+  color: var(--text-dark);
+}
+
